@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
-      - uses: psf/black@24.10.0
+      - uses: psf/black@25.1.0
         with:
           src: "./acapy_controller ./examples"
       - uses: chartboost/ruff-action@v1
